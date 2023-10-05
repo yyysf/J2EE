@@ -10,7 +10,7 @@ public class CMyView1 extends CView {
         int x=80,y=20;
         super.paintComponent(g);
         g.setColor(Color.BLUE);
-        g.drawString("软件 21-1 班成绩", x, y);
+        g.drawString("软件 21-2 班成绩", x, y);
         y+=30;
         for(Student student:((CMyDocument)this._document).students){
             g.drawString(student.name+" "+student.score, x, y);
